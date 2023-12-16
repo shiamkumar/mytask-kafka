@@ -1,0 +1,21 @@
+Kafka Steps
+===========
+Link:: https://javatute.com/kafka/spring-boot-kafka-producer-and-consumer-example-step-by-step-guide/
+How to install Apache Kafka.
+How to start zookeeper/kafka and create a topic.
+How to configure spring and apache Kafka.
+How to create Kafka producer and consumer to send/receive string messages – Hello word example.
+How to create Kafka producer and consumer to send/receive JSON messages.
+How to create a Kafka Consumer Rest controller/end-point.
+Testing using postman.
+======================================================================================================
+1)Download and install Apache Kafka
+	https://kafka.apache.org/downloads
+2)command to run zookeeper
+==>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+3)command to run kafka
+==>.\bin\windows\kafka-server-start.bat .\config\server.properties
+4)creating topic (topicName=message-events-topic-1)
+==>.\bin\windows\kafka-topics.bat –create –zookeeper localhost:2181 –replication-factor 1 –partitions 1 –topic message-events-topic-1
+5)Write your applications
+======================================================================================================
